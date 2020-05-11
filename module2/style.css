@@ -1,0 +1,96 @@
+body {
+	font-family: arial;
+	margin: 0;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+*{
+	box-sizing: border-box;
+}
+
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+header {
+	background-color:#dddddd;
+	padding: 30px;
+
+}
+header h1{
+	text-align: center;
+	font-size: 60px;
+	color: #000000;
+	margin: 1.5 0px;
+}  
+h2{
+	color:#000000;
+}
+
+.header {
+    background-color:#dddddd;
+    text-align: center;
+    padding: 2px;
+  }
+.topnav {
+    overflow: hidden;
+    background-color:#997;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  
+.left-column{
+
+	float: left;
+	width: 75%;
+
+}
+
+.right-column{
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+.card{
+	padding: 20px;
+	background-color: #ffffff; 
+	margin-top: 20px;   
+}
+.card img{
+	width: 100%;
+}
+.right-column .card img {
+	margin-bottom: 25px;
+}
+
+footer{
+	background-color: #dddddd;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px; 
+}
+
+/*responsive*/
+@media(max-width: 800px){
+	.left-column,.right-column{
+		width: 100%;
+		padding: 0px;
+	}
+}
